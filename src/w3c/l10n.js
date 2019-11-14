@@ -23,7 +23,7 @@ const additions = {
   },
   nl: {
     status_at_publication:
-      "This section describes the status of this document at the time of its publication. Other documents may supersede this document. A list of current W3C publications and the latest revision of this technical report can be found in the <a href='https://www.w3.org/TR/'>W3C technical reports index</a> at https://www.w3.org/TR/.",
+      "Deze paragraaf beschrijft de status van dit document op het moment van publicatie. Andere documenten kunnen de plaats van dit document innemen. Een lijst van de huidige W3C-publicaties en de laatste revisie van dit technische rapport is te vinden in de W3C-index technische rapporten in https://www.w3.org/TR/.",
   },
   es: {
     status_at_publication:
