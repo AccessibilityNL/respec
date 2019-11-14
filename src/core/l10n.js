@@ -110,6 +110,8 @@ const nl = {
   editor: "Redacteur:",
   editors_note: "Redactionele noot",
   editors: "Redacteurs:",
+  former_editor: "Voorgaande redacteur:",
+  former_editors: "Voorgaande redacteurs:",
   file_a_bug: "Dien een melding in",
   info_references: "Informatieve referenties",
   issue_summary: "Lijst met issues",
