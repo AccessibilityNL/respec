@@ -6,6 +6,7 @@ import { l10n } from "../core/l10n.js";
 export const name = "w3c/l10n";
 const additions = {
   en: {
+    recommendation_latest: "Latest Recommendation",
     status_at_publication:
       "This section describes the status of this document at the time of its publication. Other documents may supersede this document. A list of current W3C publications and the latest revision of this technical report can be found in the <a href='https://www.w3.org/TR/'>W3C technical reports index</a> at https://www.w3.org/TR/.",
   },
@@ -22,6 +23,7 @@ const additions = {
       "この節には、公開時点でのこの文書の位置づけが記されている。他の文書によって置き換えられる可能性がある。現時点でのW3Cの発行文書とこのテクニカルレポートの最新版は、下記から参照できる。 <a href='https://www.w3.org/TR/'>W3C technical reports index</a> (https://www.w3.org/TR/)",
   },
   nl: {
+    recommendation_latest: "Laatste aanbeveling",
     status_at_publication:
       "Deze paragraaf beschrijft de status van dit document op het moment van publicatie. Andere documenten kunnen de plaats van dit document innemen. Een lijst van de huidige W3C-publicaties en de laatste revisie van dit technische rapport is te vinden in de W3C-index technische rapporten in https://www.w3.org/TR/.",
   },

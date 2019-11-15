@@ -133,7 +133,7 @@ export default conf => {
               <dd><a href="${conf.prevRecURI}">${conf.prevRecURI}</a></dd>
             `
           : html`
-              <dt>Latest Recommendation:</dt>
+              <dt>${conf.l10n.recommendation_latest}:</dt>
               <dd><a href="${conf.prevRecURI}">${conf.prevRecURI}</a></dd>
             `}
         <dt>${conf.multipleEditors ? conf.l10n.editors : conf.l10n.editor}</dt>
