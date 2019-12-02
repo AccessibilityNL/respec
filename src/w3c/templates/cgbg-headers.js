@@ -53,7 +53,7 @@ export default conf => {
           : ""}
         ${conf.implementationReportURI
           ? html`
-              <dt>Implementation report:</dt>
+              <dt>${conf.l10n.implementationReport}:</dt>
               <dd>
                 <a href="${conf.implementationReportURI}"
                   >${conf.implementationReportURI}</a
