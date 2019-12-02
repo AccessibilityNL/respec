@@ -69,7 +69,7 @@ export default conf => {
           : ""}
         ${conf.prevVersion
           ? html`
-              <dt>Previous version:</dt>
+              <dt>${conf.l10n.prevVersion}:</dt>
               <dd><a href="${conf.prevVersion}">${conf.prevVersion}</a></dd>
             `
           : ""}
