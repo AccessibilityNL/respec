@@ -8,7 +8,6 @@ const modules = [
   // order is significant
   import("../src/core/base-runner.js"),
   import("../src/core/ui.js"),
-  import("../src/core/jquery-enhanced.js"),
   import("../src/core/reindent.js"),
   import("../src/core/location-hash.js"),
   import("../src/core/l10n.js"),
@@ -47,6 +46,7 @@ const modules = [
   import("../src/core/mdn-annotation.js"),
   import("../src/ui/save-html.js"),
   import("../src/ui/search-specref.js"),
+  import("../src/ui/search-xref.js"),
   import("../src/ui/dfn-list.js"),
   import("../src/ui/about-respec.js"),
   import("../src/core/seo.js"),
@@ -59,6 +59,7 @@ const modules = [
   import("../src/core/data-type.js"),
   import("../src/core/algorithms.js"),
   import("../src/core/anchor-expander.js"),
+  import("../src/core/custom-elements/index.js"),
   /* Linter must be the last thing to run */
   import("../src/core/linter.js"),
 ];
