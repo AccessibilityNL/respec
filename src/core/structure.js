@@ -63,7 +63,7 @@ function scanSections(sections, maxTocLevel, { prefix = "" } = {}) {
       appendixMode = true;
     }
     let secno = section.isIntro
-      ? ""
+      ? "0"
       : appendixMode
       ? alphabet.charAt(index - lastNonAppendix)
       : prefix + index;
